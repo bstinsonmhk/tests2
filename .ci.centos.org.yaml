@@ -3,6 +3,7 @@
     centos_ver: 7
     centos_arch: x86_64
     jobname: test2
+    ci-project: bstinsonmhk
     jobs:
         - ci.centos.org-rundotsh-job
     rundotshargs: 1 banana -q
@@ -12,6 +13,7 @@
     centos_ver: 6
     centos_arch: x86_64
     jobname: test3 
+    ci-project: bstinsonmhk
     jobs:
         - ci.centos.org-rundotsh-job
     rundotshargs: 42 orange -v --progress
