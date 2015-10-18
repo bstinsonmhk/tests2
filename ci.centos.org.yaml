@@ -1,19 +1,11 @@
 - project:
-    name: bstinsonmhk1-test2
+    name: test2
     centos_ver: 7
     centos_arch: x86_64
-    jobname: test2
-    git_url: https://github.com/bstinsonmhk/tests2.git
-    jobs:
-        - ci.centos.org-rundotsh-job
     rundotshargs: 1 banana -q
 
 - project:
-    name: bstinsonmhk1-test3
+    name: test3
     centos_ver: 6
     centos_arch: x86_64
-    jobname: test3 
-    git_url: https://github.com/bstinsonmhk/tests2.git
-    jobs:
-        - ci.centos.org-rundotsh-job
     rundotshargs: 42 orange -v --progress
