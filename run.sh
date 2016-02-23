@@ -1,5 +1,1 @@
-#!/bin/bash
-
-echo "Hello from tests2"
-echo "hi"
-echo 2
+echo 3
