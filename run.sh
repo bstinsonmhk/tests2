@@ -2,3 +2,4 @@
 
 echo "Hello from tests2"
 echo "hi"
+echo 2
